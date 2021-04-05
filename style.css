@@ -1,0 +1,130 @@
+.header{
+    position: absolute;
+width: 1920px;
+height: 140px;
+left: 0px;
+top: 0px;
+
+filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));
+
+}
+.F1338{
+    position: absolute;
+    width: 1568px;
+    height: 84px;
+    left: 219px;
+    top: 13px;
+}
+.F1352{
+    position: absolute;
+width: 97px;
+height: 52px;
+left: 1514px;
+top: 16px;
+}
+.Rec{
+    position: absolute;
+width: 97px;
+height: 52px;
+left: 0px;
+top: 0px;
+border: 1px solid #C5E1E6;
+box-sizing: border-box;
+border-radius: 100px;
+}
+.FR{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 1362px;
+top: 26px;
+
+}
+.LogoLarge{
+    position: absolute;
+width: 100px;
+height: 90px;
+left: 220px;
+top: 10px;
+}
+.Z{
+    position: absolute;
+width: 24.39px;
+height: 41.81px;
+left: -1365px;
+top: 21px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 41px;
+/* identical to box height */
+
+
+/* black */
+
+color: #0D444D;
+
+}
+.Online{
+    position: absolute;
+width: 108px;
+height: 41.81px;
+left: -1350px;
+top: -45px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: 800;
+font-size: 55px;
+line-height: 41px;
+/* identical to box height */
+
+
+/* black */
+
+color: #0D444D;
+}
+.Ab{
+    position: absolute;
+width: 50px;
+height: 20px;
+left: 380px;
+top: 45px;
+}
+.Map{
+    position: absolute;
+    width: 30px;
+    height:15px;
+    left: 485px;
+    top: 45px;
+}
+.Zoos{
+    position: absolute;
+    width: 70px;
+    height: 24px;
+    left: 963px;
+    top: 82px;
+}
+.Cont{
+    position: absolute;
+    width: 180px;
+    height: 24px;
+    left: 1120px;
+    top: 80px;
+}
+.Des{
+    position: absolute;
+    width: 110px;
+    height: 24px;
+    left: 1390px;
+    top: 80px;
+}
+.FR{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1580px;
+    top: 40px;
+}
