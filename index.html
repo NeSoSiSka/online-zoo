@@ -1,30 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/fonts/fonts.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>Online Zoo</title>
 </head>
-<body>
-    <header class="header">
-        <div class="F1338">
-                </div>
-                    <img class="LogoLarge" src="Logo-large.png" alt="">
-            </div>
-            <img class="Ab" src="about.png" alt="">
-            <img class="Map" src="MAP.png" alt="">
-            <img class="Zoos" src="Zoos.png" alt="">
-            <img class="Cont" src="contact us.png" alt="">
-            <img class="Des" src="design.png" alt="">
-            <img class="FR" src="Frame.png" alt="">
-            <img class="FR1352" src="Frame 1352.png" alt="">
-            <img class="Login" src="Log in.png" alt="">
-
+<body class="body">
+  <header class="header">
+    <div class="wrapper-content header__wrapper">
+      <h1 class="header__title">Online Zoo</h1>
+      
+      <nav class="nav header__nav">
+        <a class="header__logo" href="https://rolling-scopes-school.github.io/akisole-JSFE2021Q1/online-zoo/">
+          <img src="./assets/icons/logo-large.svg" alt="Logo image">
+        </a>
+        <ul class="nav__region">
+          <li class="nav__item">
+            <a class="nav__link nav__link_selected" href="">about</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="zoos/map/">map</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="zoos/panda/">zoos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="zoos/404/">contact us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="https://www.figma.com/file/vzrwoqf0kSG1uOify8BRBR/online-zoo">design</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__user-panel">
+        <div class="search">
+          <input id="search" class="search__input" type="text" name="" id="">
+          <label class="search__label" for="search"></label>
         </div>
+        <a class="button header__button header__button_val_log-in" href="">log in</a>
+        <a class="button header__button header__button_val_sign-up" href="">sign up</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section section__hero">
+      <div class="hero__bg"></div>
+      <div class="hero__area wrapper-content">
+        <aside>
+          <h2 class="hero__title">Watch your favorite</h2>
+          <h2 class="hero__title-2">animals online</h2>
+          <p class="hero__text text text_color_hero">Observe different animals from around the world online in live time. 
+                Help vulunteers to take a good care of animals, donate to your favorite ones.</p>
+          <a class="button hero__button" href="zoos/panda/">Watch now</a>
+         </aside>
+        <div class="hero__image hero__img-wrap">
+          <a class="hero__img-wrap" href="zoos/panda/">
+            <div class="hero__img-pic"></div>
+          </a>
+          <svg class="hero__youtube" width="121" height="121" viewBox="0 0 121 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="youtube_path1" d="M87.428 24.5891H32.7855C20.7142 24.5891 10.9285 34.0254 10.9285 45.6656V77.2802C10.9285 88.9203 20.7142 98.3566 32.7855 98.3566H87.428C99.4993 98.3566 109.285 88.9203 109.285 77.2802V45.6656C109.285 34.0254 99.4993 24.5891 87.428 24.5891Z" fill="#2E2E2E" fill-opacity="0.8"/>
+            <path class="youtube_path2" d="M50.0881 45.0801L75.1326 60.1068L50.0881 75.1335V45.0801Z" fill="white" stroke="white" stroke-width="7.51335" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section class="section section__how-work">
+      <div class="wrapper-content">
+        <h2 class="subtitle subtitle_color_black">How it works</h2>
+        <div class="how-work__info">
+          <div class="how-work__card">
+            <div class="card__circle">
+              <div class="card__icon card__icon-binoculars"></div>
+            </div>
+            <p class="card__text text text_color_black">Keep an eye on your favourite animals online</p>
+          </div>
+          <div class="how-work__card">
+            <div class="card__circle">
+              <div class="card__icon card__icon-dog"></div>
+            </div>
+            <p class="card__text text text_color_black">Become a part of the communtity</p>
+          </div>
+          <div class="how-work__card">
+            <div class="card__circle">
+              <div class="card__icon card__icon-trust"></div>
+            </div>
+            <p class="card__text text text_color_black">Support animals with the donations</p>
+          </div>
+        </div>
+      </div>
+      <div class="how-work__bg">
+        <div class="how-work__bg-panda"></div>
+        <div class="how-work__bg-bamboo-left"></div>
+        <div class="how-work__bg-bamboo-mid"></div>
+        <div class="how-work__bg-tree-left"></div>
+        <div class="how-work__bg-tree-mid"></div>
+        <div class="how-work__bg-tree-right"></div>
 
-    </header>
-    
+      </div>
+    </section>
+    <section class="section section__pets wrapper-content">
+
+      <a class="pet__button button button__color-main " href="zoos/map/">
+        <img src="assets/icons/pet__heart.svg" alt="">Choose your Favorite</a>
+      <h2 class="pets__title subtitle subtitle_color_black">Pets in zoo</h2>
+      <div class="pets__galery">
+        <a class="pets__card" href="./zoos/panda/">
+          <div class="pets__img-wrap">
+            <div class="pets__img pets__img-pand"></div>
+          </div>
+          <div class="pets__card_descr">
+            <div class="pets__card_descr-animal">Pandas</div>
+            <div class="pets__card_descr-location">Shenshuping Gengda Panda Center</div>
+            <div class="pets__card_descr-ico"></div>
+          </div>
+        </a>
+        <a class="pets__card" href="./zoos/eagle/">
+          <div class="pets__img-wrap">
+            <div class="pets__img pets__img-eagl"></div>
+          </div>
+          <div class="pets__card_descr">
+            <div class="pets__card_descr-animal">Eagles</div>
+            <div class="pets__card_descr-location">Catalina Island</div>
+            <div class="pets__card_descr-ico"></div>
+          </div>
+        </a>
+        <a class="pets__card" href="./zoos/gorilla/">
+          <div class="pets__img-wrap">
+            <div class="pets__img pets__img-gorl"></div>
+          </div>
+          <div class="pets__card_descr">
+            <div class="pets__card_descr-animal">Gorillas</div>
+            <div class="pets__card_descr-location">GRACE gorillas</div>
+            <div class="pets__card_descr-ico"></div>
+          </div>
+        </a>
+        <a class="pets__card" href="./zoos/alligator/">
+          <div class="pets__img-wrap">
+            <div class="pets__img pets__img-alig"></div>
+          </div>
+          <div class="pets__card_descr">
+            <div class="pets__card_descr-animal">Aligators</div>
+            <div class="pets__card_descr-location">St. Augustine's Alligator Farm Zoological Park</div>
+            <div class="pets__card_descr-ico"></div>
+          </div>
+        </a>
+        <div class="pets__card">
+          <div class="pets__img-wrap">
+            <div class="pets__img pets__img-elph"></div>
+          </div>
+          <div class="pets__card_descr">
+            <div class="pets__card_descr-animal">Elephants</div>
+            <div class="pets__card_descr-location">Tembe Elephant Park</div>
+            <div class="pets__card_descr-ico"></div>
+          </div>
+        </div>
+        <div class="pets__card">
+          <div class="pets__img-wrap">
+            <div class="pets__img pets__img-lemr"></div>
+          </div>
+          <div class="pets__card_descr">
+            <div class="pets__card_descr-animal">Lemurs</div>
+            <div class="pets__card_descr-location">Madagascar</div>
+            <div class="pets__card_descr-ico"></div>
+          </div>
+        </div>
+        <div class="pets__swipe">
+          <div class="pets__swipe-right"></div>
+          <div class="pets__swipe-left"></div>
+        </div>
+      </div>
+      <div class="pets__penguin"></div>
+    </section>
+    <section class="section section__pay-feed">
+      <div class="wrapper-content">
+        <a class="pay-feed__button button" href="">Donate to volunteers</a>
+        <h2 class="pay-feed__title subtitle subtitle_color_white">Pay and feed</h2>
+        <div class="pay-feed__info">
+          <div class="pay-feed__card">
+            <div class="card__circle card__circle_shadow-grey">
+              <div class="card__icon card__icon-donate"></div>
+            </div>
+            <p class="card__text text text_color_white">You donate to your favourite animals </p>
+          </div>
+          <div class="pay-feed__card">
+            <div class="card__circle card__circle_shadow-grey">
+              <div class="card__icon card__icon-trust-apple"></div>
+            </div>
+            <p class="card__text text text_color_white">Zoo Keepers feed animals with their favourite food</p>
+          </div>
+          <div class="pay-feed__card">
+            <div class="card__circle card__circle_shadow-grey">
+              <div class="card__icon card__icon-monkey"></div>
+            </div>
+            <p class="card__text text text_color_white">Animals are healthy and happy</p>
+          </div>
+        </div>
+      </div>
+      <div class="pay-feed__bg">
+        <div class="pay-feed__bg-bamboo"></div>
+        <div class="pay-feed__bg-tree"></div>
+      </div>
+    </section>
+    <section class="section section__review wrapper-content">
+      <h2 class="review__title subtitle subtitle_color_black">Testimonials</h2>
+      <a class="review__button button button__color-main " href="">
+        <img src="assets/icons/review__feedback.svg" alt="">Leave feedback</a>
+      <div class="review__galery">
+        <div class="review__card">
+          <div class="review__card_feedback">
+            <div class="feedback__date">20 Decepmer 2020</div>
+            <div class="feedback__text">Awesome place to observe my favourite aligators at Florida, the quality of the video is great.</div>
+          </div>
+          <div class="review__card_author">
+            <div class="author__avatar author_adam"></div>
+            <div class="author__descr">Adam, Spain</div>
+          </div>
+        </div>
+        <div class="review__card">
+          <div class="review__card_feedback">
+            <div class="feedback__date">20 Decepmer 2020</div>
+            <div class="feedback__text">Awesome place to observe my favourite aligators at Florida, the quality of the video is great.</div>
+          </div>
+          <div class="review__card_author">
+            <div class="author__avatar author_chris"></div>
+            <div class="author__descr">Chris, Australia</div>
+          </div>
+        </div>
+        <div class="review__card">
+          <div class="review__card_feedback">
+            <div class="feedback__date">20 Decepmer 2020</div>
+            <div class="feedback__text">Awesome place to observe my favourite aligators at Florida, the quality of the video is great.</div>
+          </div>
+          <div class="review__card_author">
+            <div class="author__avatar author_amely"></div>
+            <div class="author__descr">Amely, USA</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section__cute-animal wrapper-content">
+      <h2 class="cute-animal__title subtitle subtitle_color_black">Look at this beautiful animals</h2>
+      <div class="cute-animal__gallery">
+        <div class="cute-animal__gallery-bar">
+          <a class="cute-animal__card" href="./zoos/panda/">
+            <div class="cute-animal__card_photo-wrap">
+              <div class="cute-animal__card_photo cute-animal__card_photo-pand"></div>
+            </div>
+            <div class="cute-animal__card-descr">Pandas</div>
+          </a>
+          <a class="cute-animal__card" href="./zoos/eagle/">
+            <div class="cute-animal__card_photo-wrap">
+              <div class="cute-animal__card_photo cute-animal__card_photo-eagl"></div>
+            </div>
+            <div class="cute-animal__card-descr">Eagles</div>
+          </a>
+          <a class="cute-animal__card" href="./zoos/gorilla/">
+            <div class="cute-animal__card_photo-wrap">
+              <div class="cute-animal__card_photo cute-animal__card_photo-gorl"></div>
+            </div>
+            <div class="cute-animal__card-descr">Gorillas</div>
+          </a>
+          <a class="cute-animal__card" href="./zoos/alligator/">
+            <div class="cute-animal__card_photo-wrap">
+              <div class="cute-animal__card_photo cute-animal__card_photo-alig"></div>
+            </div>
+            <div class="cute-animal__card-descr">Aligators</div>
+          </a>
+          <div class="cute-animal__card">
+            <div class="cute-animal__card_photo-wrap">
+              <div class="cute-animal__card_photo cute-animal__card_photo-elph"></div>
+            </div>
+            <div class="cute-animal__card-descr">Elephants</div>
+          </div>
+          <div class="cute-animal__card">
+            <div class="cute-animal__card_photo-wrap">
+              <div class="cute-animal__card_photo cute-animal__card_photo-lemr"></div>
+            </div>
+            <div class="cute-animal__card-descr">Lemurs</div>
+          </div>
+          <a class="cute-animal__card" href="./zoos/panda/">
+            <div class="cute-animal__card_photo-wrap">
+              <div class="cute-animal__card_photo cute-animal__card_photo-pand"></div>
+            </div>
+            <div class="cute-animal__card-descr">Pandas</div>
+          </a>
+        </div>
+        <div class="cute-animal__gallery_swipe">
+          <div class="pets__swipe-right"></div>
+          <div class="pets__swipe-left"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrapper-content footer__wrapper">
+      <nav class="nav footer__nav">
+        <a class="footer__logo" href="https://rolling-scopes-school.github.io/akisole-JSFE2021Q1/online-zoo/">
+          <img src="./assets/icons/logo-large.svg" alt="Logo image">
+        </a>
+        <ul class="nav__region">
+          <li class="nav__item">
+            <a class="nav__link" href="">about</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="zoos/map/">map</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="zoos/panda/">zoos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="zoos/404/">contact us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="https://www.figma.com/file/vzrwoqf0kSG1uOify8BRBR/online-zoo">design</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">Design by Lemeshko Kateryna</p>
+        <p class="footer__copyright-text">©RSSchool and ©Yem Digital 2021</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
